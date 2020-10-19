@@ -1,0 +1,64 @@
+body{
+    background-color: gainsboro;
+    align-items: center;
+    text-align: center;
+}
+#forms{
+    width: 50%;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+    text-align: left;
+}
+li{
+    list-style-type: none;
+    
+}
+label{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+input[type=text]{
+    /* width: 90%; */
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    
+}
+form >ul >div{
+    display: inline-block;
+    margin-right: 20px
+}
+
+.nameinput{
+    width: 200px
+}
+option{
+    padding: 10px;
+}
+button{
+    margin-left: 40%;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: blue;
+}
+
+#message{
+    /* position: absolute; */
+    /* top: 110px; */
+    /* right: 0; */
+    padding: 8px;
+    border:1px solid transparent;
+    background: lightskyblue;
+    transition: all 2s ease-in-out;
+    display: none;
+     min-height: 30px;
+     border-top-right-radius: 35px;
+    /* overflow: hidden; */
+     width: 12rem; 
+    /* transform: translate(100%, 100%); */
+}

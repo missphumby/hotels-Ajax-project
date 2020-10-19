@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+
+header{
+    background-color: black;
+    width: 100%;
+    /* display: flex;
+    align-items: left;
+    justify-content: space-between; */
+    color: white;
+    height: 100px;
+    
+}
+header h1{
+font-family: Kaushan Script;
+font-style: italic;
+font-weight: normal;
+}
+header h2,h3{
+    font-family: sans-serif;
+    
+}
+header h1 h2{
+    text-align: left;
+}
+header h2{
+    display: inline;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+header h3{
+    /* float: right; */
+    /* display: inline-block; */
+    /* text-decoration: none; */
+    display: inline;
+    margin-right: 0px;
+    margin-left: 750px;
+    letter-spacing: 2px;
+    padding: 0;
+    
+    
+}
+a{
+text-decoration: none;
+color: white;
+letter-spacing: 2px;
+}
+nav{
+display: inline-flex;
+flex-wrap: wrap;
+/* width: 100%; */
+}
+button{
+    display: inline-flex;
+    /* align-items: stretch; */
+    background-color: tomato;
+    font-size: 24px;
+    color: white;
+    padding: 10px 120px;
+    /* margin: 0; */
+}
+#sandy{
+    padding: 10px 131px;
+}
+main{
+    text-align: center;
+    
+}
+#roomName{
+    font-size: 30px;
+    color: chocolate;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Kaushan Script;
+}
+#desc{
+    font-size: 25px;
+    font-weight: lighter;
+}
+img:first-child{
+    /* opacity: 0.5 */
+}
+section h2{
+    font-size: 30px;
+    color: chocolate;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Kaushan Script;
+}
+#amenities{
+    float: right;
+    margin-right: 400px;
+    letter-spacing: 2px;
+}
+#cost{
+    float: left;
+    margin-left: 130px;
+}
+#weekday, #weekend{
+    font-weight: bold;
+}
+.reserve{
+    border: 1px solid transparent;
+    background-color: tomato;
+    border-radius: 25px;
+    font-weight: 800;
+    padding: 10px 25px;
+}
+footer{
+    clear: both;
+     margin-bottom: 0
+    width: 100%; 
+    background-color: black; 
+    height: 80px; 
+    text-align: center; 
+    color: white;
+     
+}

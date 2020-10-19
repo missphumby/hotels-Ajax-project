@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+        <title>Meenah's suites reservation form</title>
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+  </head>
+
+  <body>
+      <h2>Please fill the form below to complete your reservation<br> process at Meenah Suites</h2>
+<form id="forms" name="forms" style="font-size: 18px;">
+    <ul id="name">
+  <div>      
+<li><label for="firstname">First name *</label></li>
+<input onchange="" type="text" name="firstname" class="nameinput" style="height: 30px; width: 260px;">
+</div>
+<div>
+<li><label for="lastname">Last name *</label></li>
+<input onchange="validateName()" type="text" name="lastname" class="nameinput" style="height: 30px; width: 260px;">
+</div>
+</ul>
+<ul>
+<li><label for="email address">Email address *</label></li>
+<input type="text" name="emailaddress" onchange="validateEmail()" style="height: 30px; width: 90%; margin-bottom: 20px;" required>
+
+<li><label for="email address">Home address</label></li>
+<input type="text" name="homeaddress" style="height: 30px; width: 90%; margin-bottom: 20px;">
+
+<li><label for="mobilenumber">Mobile number</label></li>
+<input type="text" name="mobilenumber" style="height: 30px; width: 90%; margin-bottom: 20px;" required>
+
+<li><label for="selectrooms">Select a room type</label></li>
+<select id="selectroom" onchange="showamount()" style="height: 25px; width: 90%; margin-bottom: 20px;">
+<option value="southern serenade">Southern serenade</option>
+<option value="enchanted escape">Enchanted Escape</option>
+<option value="sandy suite">Sandy Suite</option>
+</select>
+
+<input type="text" id="amount" style="height: 30px; text-align: center; color: orangered; font-size: 20px; background-color: gainsboro; width: 90%">
+</ul>
+<ul>
+    <div style="display: inline-block; margin-right: 20px">      
+  <li><label for="checkin">Check-in date</label></li>
+  <input onchange="validateDate1" type="text" placeholder="dd/mm/yy" id="checkin" class="nameinput" style="height: 30px; font-weight: 100; width: 260px;" required>
+  </div>
+  <div>
+  <li><label for="checkout">Check-out date</label></li>
+  <input onchange="validateDate2" type="text" placeholder="dd/mm/yy"id="checkout" class="nameinput" style="height: 30px; font-weight: 100; width: 260px;" required>
+  </div>
+  </ul>
+
+<button type="submit" id="submit" value="submit" style="padding: 8px 50px; border-radius: 20px; font-size: 20px; background-color: orange;">Submit</button>
+<div id="message"></div>
+</form>
+<img src="../imgs/download.png" style="margin: auto;">
+
+<script src="contact.js"></script>
+  </body>
+</html>
